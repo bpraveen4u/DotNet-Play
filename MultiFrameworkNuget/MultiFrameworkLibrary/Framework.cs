@@ -7,7 +7,7 @@ namespace MultiFrameworkLibrary
             Console.WriteLine(GetFramework());
         }
 
-        private string GetFramework()
+        public string GetFramework()
         {
 #if NET8_0
             return "NET8";
